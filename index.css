@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+*
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(58,58,213,1) 42%, rgba(0,212,255,1) 79%);
+height: 100vh;
+width: 100vw;
+overflow: hidden;
+}
+
+.container {
+background-color: transparent;
+position: relative;
+left: 50%;
+top: 50%;
+width: 400px;
+transform:translate(-50%, -50%);
+font-family: 'Courier New', Courier, monospace;
+margin-bottom: -100px; 
+border-bottom: 5px solid #adadad;
+backdrop-filter: blur(100px); 
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.192);
+}
+.container h1 {
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+    padding: 0; 
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.container form {
+    padding: 0 5vw;
+box-sizing: border-box;
+}
+form .email {
+position: relative;
+border-bottom: 2px solid #adadad;
+margin:  30px 0;
+}
+form .wachtwoord {
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin:  30px 0;
+    width: 100%;
+    }
+    .email input {
+        width: 100%;
+        border: 1px  black;
+        background-color: transparent;
+        height: 3vh;
+    }
+    .email input::placeholder {
+        color: black;
+        font-family: 'Quicksand', sans-serif;  
+    font-weight: bold;  
+    transition: all 0.3s;}
+        form .voornaam {
+            position: relative;
+    border-bottom: 2px solid #adadad;
+    margin:  30px 0;
+    width: 100%;
+        }
+        .voornaam input {  width: 100%;
+            border: 1px  black;
+            background-color: transparent;
+            height: 3vh;}
+            .voornaam input::placeholder{ color: black;
+                font-family: 'Quicksand', sans-serif;  
+            font-weight: bold;  
+            transition: all 0.3s;}
+                form .voornaam {
+                    position: relative;
+            border-bottom: 2px solid #adadad;
+            margin:  30px 0;
+            width: 100%;}
+
+
+            .achternaam input {  width: 100%;
+                border: 1px  black;
+                background-color: transparent;
+                height: 3vh;}
+                .achternaam input::placeholder{ color: black;
+                    font-family: 'Quicksand', sans-serif;  
+                font-weight: bold;  
+                transition: all 0.3s;}
+                    form .achternaam {
+                        position: relative;
+                border-bottom: 2px solid #adadad;
+                margin:  30px 0;
+                width: 100%;}
+                .klas input {  width: 100%;
+                    border: 1px  black;
+                    background-color: transparent;
+                    height: 3vh;}
+                    .klas input::placeholder{ color: black;
+                        font-family: 'Quicksand', sans-serif;  
+                    font-weight: bold;  
+                    transition: all 0.3s;}
+                        form .klas {
+                            position: relative;
+                    border-bottom: 2px solid #adadad;
+                    margin:  30px 0;
+                    width: 100%;}
+
+    .wachtwoord input {
+        width: 100%;
+        border: none;
+        width: 100%;
+        border: 1px  black;
+        background-color: transparent;
+        height: 3vh;
+
+    }
+    .wachtwoord input::placeholder{
+        color: black;
+font-family: 'Quicksand', sans-serif;  
+font-weight: bold;
+transition: all 0.3s;  }
+.email input:hover::placeholder,
+.wachtwoord input:hover::placeholder,
+.voornaam input:hover::placeholder,
+.achternaam input:hover::placeholder,
+.klas input:hover::placeholder
+ {
+    font-size: 0.75em; 
+}
+.loginbutton input{
+background-color:white;
+width: 50%;
+height: 5vh;
+margin-bottom: 20px;
+margin-top: 20px;
+font-weight: 600;
+color: black;
+border: none;
+outline: none;
+border-radius: 40px;
+cursor: pointer;
+box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+position: relative;
+left: 50%;
+right: 50%;
+transform:translate(-50%, -50%);
+
+;}
+.loginbutton input:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.loginbutton input:active {
+    transform: translate(-50%, -50%) scale(0.95); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.register input{
+    background-color:white;
+    width: 50%;
+    height: 5vh;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 600;
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform:translate(-50%, -50%);
+    
+    }
+    .register input:hover {
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+    
+    .register input:active {
+        transform: translate(-50%, -50%) scale(0.95); 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    }
+    
+   
